@@ -1,0 +1,55 @@
+2021-08-28 11:08:56.2543|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-28 11:08:56.2714|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-28 11:08:56.2714|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-08-28 11:08:56.3015|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:08:56 AM
+2021-08-28 11:08:56.5366|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:08:56 AM
+2021-08-28 11:08:56.5819|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:08:56 AM
+2021-08-28 11:08:56.5921|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:08:56 AM
+2021-08-28 11:09:01.2047|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2047|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2047|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2483|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2645|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2645|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.2645|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.3080|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.3144|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.3323|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.6271|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.6271|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.7405|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.7405|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.8053|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.8393|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.8415|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: image/png, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:01.9639|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:09:01 AM
+2021-08-28 11:09:05.1756|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:09:05 AM
+2021-08-28 11:09:10.8649|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:09:10 AM
+2021-08-28 11:18:21.0459|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-28 11:18:21.0459|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-28 11:18:21.0459|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-08-28 11:18:21.0764|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:21 AM
+2021-08-28 11:18:21.2592|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:18:21 AM
+2021-08-28 11:18:21.3069|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:21 AM
+2021-08-28 11:18:21.3069|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:18:21 AM
+2021-08-28 11:18:24.9491|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:24 AM
+2021-08-28 11:18:24.9567|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 8/28/2021 11:18:24 AM
+2021-08-28 11:18:24.9567|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:24 AM
+2021-08-28 11:18:24.9876|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:18:24 AM
+2021-08-28 11:18:25.0034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.0034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.0034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.0429|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.0429|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.0429|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.2251|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.2251|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.3448|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.3448|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.4176|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:25 AM
+2021-08-28 11:18:25.5442|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:18:25 AM
+2021-08-28 11:18:43.4150|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:8/28/2021 11:18:43 AM
+2021-08-28 11:18:43.5005|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 8/28/2021 11:18:43 AM
+2021-08-28 11:18:52.1217|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:18:52 AM
+2021-08-28 11:18:59.0064|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/28/2021 11:18:59 AM
+2021-08-28 11:19:02.3807|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/28/2021 11:19:02 AM

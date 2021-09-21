@@ -1,0 +1,11 @@
+C:\Users\99555\source\repos\Myapp.Data\bin\Debug\netstandard2.0\Myapp.Data.deps.json
+C:\Users\99555\source\repos\Myapp.Data\bin\Debug\netstandard2.0\Myapp.Data.dll
+C:\Users\99555\source\repos\Myapp.Data\bin\Debug\netstandard2.0\Myapp.Data.pdb
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.csprojAssemblyReference.cache
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.AssemblyInfoInputs.cache
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.AssemblyInfo.cs
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.dll
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.pdb
+C:\Users\99555\source\repos\Myapp.Data\bin\Debug\netstandard2.0\Myapp.Domain.dll
+C:\Users\99555\source\repos\Myapp.Data\bin\Debug\netstandard2.0\Myapp.Domain.pdb
+C:\Users\99555\source\repos\Myapp.Data\obj\Debug\netstandard2.0\Myapp.Data.csproj.CopyComplete

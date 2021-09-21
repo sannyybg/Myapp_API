@@ -1,0 +1,7 @@
+2021-08-02 10:44:05.3584|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-02 10:44:05.3881|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-02 10:44:05.3881|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-08-02 10:44:05.4127|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/2/2021 10:44:05 AM
+2021-08-02 10:44:05.5220|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/2/2021 10:44:05 AM
+2021-08-02 10:44:05.5540|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/2/2021 10:44:05 AM
+2021-08-02 10:44:05.5540|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/2/2021 10:44:05 AM

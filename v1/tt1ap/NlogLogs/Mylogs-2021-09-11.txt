@@ -1,0 +1,1113 @@
+2021-09-11 11:05:09.5247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:05:09.5505|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:05:09.5505|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:05:09.5906|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:09 AM
+2021-09-11 11:05:10.5191|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:05:10 AM
+2021-09-11 11:05:10.6025|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:10 AM
+2021-09-11 11:05:10.6082|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:05:10 AM
+2021-09-11 11:05:30.4245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4660|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4852|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4852|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.4852|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.5278|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.5278|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.5278|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.7618|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.7618|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.9002|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.9002|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.9671|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.9996|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:30 AM
+2021-09-11 11:05:30.9996|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: image/png, StatusCode: 200, Date: 9/11/2021 11:05:31 AM
+2021-09-11 11:05:31.1005|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:05:31 AM
+2021-09-11 11:05:36.3061|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:36 AM
+2021-09-11 11:05:39.7252|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (100ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+2021-09-11 11:05:39.8124|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:bafdb314-f624-49e5-95c1-7d1d74fdf694
+Error Number:208,State:1,Class:16
+2021-09-11 11:05:40.4973|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000004-0001-ff00-b63f-84710c7967bb, 80000004-0001-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:05:50.0526|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:05:50 AM
+2021-09-11 11:05:50.0719|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+2021-09-11 11:05:50.0719|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:bafdb314-f624-49e5-95c1-7d1d74fdf694
+Error Number:208,State:1,Class:16
+2021-09-11 11:05:50.4046|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000006-0002-ff00-b63f-84710c7967bb, 80000006-0002-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:06:22.0257|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:06:22 AM
+2021-09-11 11:06:22.2024|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (42ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:06:22.2024|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:bafdb314-f624-49e5-95c1-7d1d74fdf694
+Error Number:208,State:1,Class:16
+2021-09-11 11:06:22.5020|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000005-0005-ff00-b63f-84710c7967bb, 80000005-0005-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:07:54.6750|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:07:54.6750|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:07:54.6750|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:07:54.6985|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:07:54 AM
+2021-09-11 11:07:55.3169|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:07:55 AM
+2021-09-11 11:07:56.3875|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:07:56 AM
+2021-09-11 11:07:56.3875|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:07:56 AM
+2021-09-11 11:08:01.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6146|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6334|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6334|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6334|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6744|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6744|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.6744|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.8198|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.8198|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.9365|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.9365|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:08:01 AM
+2021-09-11 11:08:01.9995|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:01 AM
+2021-09-11 11:08:02.1038|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:08:02 AM
+2021-09-11 11:08:10.0855|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:08:10 AM
+2021-09-11 11:08:49.0421|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (59ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:08:49.0978|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:012a0341-02f3-40ae-8a98-405409381628
+Error Number:208,State:1,Class:16
+2021-09-11 11:08:49.5024|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000004-0007-fe00-b63f-84710c7967bb, 80000004-0007-fe00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:09:33.5129|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:09:33 AM
+2021-09-11 11:09:41.6473|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (10ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:09:41.6473|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:012a0341-02f3-40ae-8a98-405409381628
+Error Number:208,State:1,Class:16
+2021-09-11 11:09:41.9845|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000008-0001-ff00-b63f-84710c7967bb, 80000008-0001-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:10:29.4501|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:10:29.4501|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:10:29.4501|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:10:29.4763|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:29 AM
+2021-09-11 11:10:30.1344|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:10:30 AM
+2021-09-11 11:10:30.1773|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:30 AM
+2021-09-11 11:10:30.1773|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:10:30 AM
+2021-09-11 11:10:43.1418|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.1418|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.1418|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.1878|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2078|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2078|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2389|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2389|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2389|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.2389|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.4112|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.4112|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.5217|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.5217|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.5878|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:43 AM
+2021-09-11 11:10:43.6998|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:10:43 AM
+2021-09-11 11:10:49.7669|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:10:49 AM
+2021-09-11 11:10:56.5941|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (69ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:10:56.6445|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:a446f59f-439f-4a71-ae13-7aae857866c6
+Error Number:208,State:1,Class:16
+2021-09-11 11:10:57.1201|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000006-0003-fe00-b63f-84710c7967bb, 80000006-0003-fe00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:11:28.4998|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 11:11:28 AM
+2021-09-11 11:11:28.5484|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 11:11:28 AM
+2021-09-11 11:11:28.8391|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 4000), @p2='?' (Size = 30) (DbType = AnsiString), @p3='?' (Size = 30), @p4='?' (Size = 4000), @p5='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Employees] ([Age], [CardNumber], [Email], [Name], [PersonalId], [Phone])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2021-09-11 11:11:28.8565|ERROR|Microsoft.EntityFrameworkCore.Update|An exception occurred in the database while saving changes for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:a446f59f-439f-4a71-ae13-7aae857866c6
+Error Number:208,State:1,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-09-11 11:11:29.2348|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|8000000b-0005-ff00-b63f-84710c7967bb, 8000000b-0005-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:12:15.5160|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:12:15.5160|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:12:15.5160|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:12:15.5426|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:15 AM
+2021-09-11 11:12:17.1333|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:12:17 AM
+2021-09-11 11:12:17.1770|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:17 AM
+2021-09-11 11:12:17.1770|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:12:17 AM
+2021-09-11 11:12:20.0965|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.0965|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.1058|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.1326|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.1496|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.1496|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.1496|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.2034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.2034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.2034|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.3576|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.3576|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.4903|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.4903|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.5558|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:20 AM
+2021-09-11 11:12:20.6719|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:12:20 AM
+2021-09-11 11:12:26.2929|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:12:26 AM
+2021-09-11 11:12:34.1761|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (65ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:12:34.2267|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:79fcf1a4-b2d2-4c3c-9cb8-8108c3c772a0
+Error Number:208,State:1,Class:16
+2021-09-11 11:12:34.6898|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000003-0007-ff00-b63f-84710c7967bb, 80000003-0007-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:13:45.0200|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:13:45.0200|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:13:45.0284|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:13:45.0479|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:45 AM
+2021-09-11 11:13:45.7861|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:13:45 AM
+2021-09-11 11:13:45.8295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:45 AM
+2021-09-11 11:13:45.8295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:13:45 AM
+2021-09-11 11:13:49.4402|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.4402|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.4526|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.4802|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5014|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5014|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5014|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5506|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5506|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.5506|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.7329|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.7329|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.8570|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.8570|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:13:49 AM
+2021-09-11 11:13:49.9274|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:49 AM
+2021-09-11 11:13:50.0365|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:13:50 AM
+2021-09-11 11:13:58.9810|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:13:58 AM
+2021-09-11 11:14:06.4640|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (60ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:14:06.5117|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1283f284-9307-4558-b5ea-f49cc4bf4cd0
+Error Number:208,State:1,Class:16
+2021-09-11 11:14:06.9307|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000016-0002-ff00-b63f-84710c7967bb, 80000016-0002-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:16:22.8977|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:16:22.9032|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:16:22.9032|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:16:22.9032|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:22 AM
+2021-09-11 11:16:23.7264|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:16:23 AM
+2021-09-11 11:16:23.7804|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:23 AM
+2021-09-11 11:16:23.7804|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:16:23 AM
+2021-09-11 11:16:26.7949|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.7949|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.7949|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.8348|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.8570|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.8570|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.8570|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.9091|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.9091|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:16:26 AM
+2021-09-11 11:16:26.9091|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:16:26 AM
+2021-09-11 11:16:27.0643|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:27 AM
+2021-09-11 11:16:27.0643|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:16:27 AM
+2021-09-11 11:16:27.1812|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:27 AM
+2021-09-11 11:16:27.1812|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:16:27 AM
+2021-09-11 11:16:27.2450|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:27 AM
+2021-09-11 11:16:27.3576|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:16:27 AM
+2021-09-11 11:16:32.9275|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:32 AM
+2021-09-11 11:16:33.4243|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (29ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+2021-09-11 11:16:33.4701|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:63640712-9e3a-41c6-8309-98756040cd15
+Error Number:208,State:1,Class:16
+2021-09-11 11:16:33.9268|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000010-0001-ff00-b63f-84710c7967bb, 80000010-0001-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:16:54.1122|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:16:54 AM
+2021-09-11 11:17:04.0394|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (41ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:17:04.0394|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:63640712-9e3a-41c6-8309-98756040cd15
+Error Number:208,State:1,Class:16
+2021-09-11 11:17:04.4314|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000009-0000-f800-b63f-84710c7967bb, 80000009-0000-f800-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:18:55.3244|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:18:55.3244|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:18:55.3244|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:18:55.3450|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:18:55 AM
+2021-09-11 11:18:55.9886|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:18:55 AM
+2021-09-11 11:18:56.0326|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:18:56 AM
+2021-09-11 11:18:56.0326|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:18:56 AM
+2021-09-11 11:19:01.0870|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.0914|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.0914|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1274|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1491|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1491|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1491|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1984|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1984|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.1984|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.3449|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.3449|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.5015|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.5015|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.5682|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:01 AM
+2021-09-11 11:19:01.6832|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:19:01 AM
+2021-09-11 11:19:20.2084|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 11:19:20 AM
+2021-09-11 11:19:20.9182|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:19:20 AM
+2021-09-11 11:19:49.5608|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:19:49 AM
+2021-09-11 11:19:49.6022|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+2021-09-11 11:19:49.6762|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:4cf13d4e-3209-497e-a2b7-7c08efadf028
+Error Number:208,State:1,Class:16
+2021-09-11 11:19:50.1028|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000016-0001-ff00-b63f-84710c7967bb, 80000016-0001-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:29:17.0574|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:29:17.0629|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:29:17.0629|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:29:17.0763|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:17 AM
+2021-09-11 11:29:17.7104|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:29:17 AM
+2021-09-11 11:29:17.7594|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:17 AM
+2021-09-11 11:29:17.7594|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:29:17 AM
+2021-09-11 11:29:21.1448|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.1448|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.1528|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.1818|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2018|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2018|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2018|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2492|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2492|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.2492|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.4070|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.4070|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.5192|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.5192|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.5822|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:21 AM
+2021-09-11 11:29:21.6880|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:29:21 AM
+2021-09-11 11:29:28.7462|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:29:28 AM
+2021-09-11 11:29:38.1567|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (59ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:29:38.2023|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:a346ec23-dc11-48c1-a6e1-f961fee7b024
+Error Number:208,State:1,Class:16
+2021-09-11 11:29:38.6330|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000011-0000-f800-b63f-84710c7967bb, 80000011-0000-f800-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:31:07.0426|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:31:07.0426|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:31:07.0426|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:31:07.0741|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:07 AM
+2021-09-11 11:31:07.6943|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:31:07 AM
+2021-09-11 11:31:07.7378|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:07 AM
+2021-09-11 11:31:07.7378|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:31:07 AM
+2021-09-11 11:31:10.6364|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.6364|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.6364|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.6841|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7029|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7029|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7029|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7595|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7595|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.7595|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.9222|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:10 AM
+2021-09-11 11:31:10.9222|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:31:10 AM
+2021-09-11 11:31:11.0300|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:11 AM
+2021-09-11 11:31:11.0300|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:31:11 AM
+2021-09-11 11:31:11.0970|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:11 AM
+2021-09-11 11:31:11.2127|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:31:11 AM
+2021-09-11 11:31:17.9032|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:31:17 AM
+2021-09-11 11:31:23.8190|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (71ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [e].[Id], [e].[Age], [e].[CardNumber], [e].[Email], [e].[Name], [e].[PersonalId], [e].[Phone]
+FROM [Employees] AS [e]
+WHERE [e].[Id] = @__p_0
+2021-09-11 11:31:23.8642|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Employees'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:91b97c2b-7a91-4975-b1c2-2b1ef4176435
+Error Number:208,State:1,Class:16
+2021-09-11 11:31:24.2900|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|8000001e-0001-ff00-b63f-84710c7967bb, 8000001e-0001-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 11:36:28.2785|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:36:28.2785|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:36:28.2785|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:36:28.2989|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:28 AM
+2021-09-11 11:36:28.9240|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:36:28 AM
+2021-09-11 11:36:28.9703|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:28 AM
+2021-09-11 11:36:28.9703|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:36:28 AM
+2021-09-11 11:36:32.6613|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.6613|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.6686|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.6958|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7154|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7154|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7154|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7622|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7622|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.7622|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.9141|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:32 AM
+2021-09-11 11:36:32.9141|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:36:32 AM
+2021-09-11 11:36:33.0206|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:33 AM
+2021-09-11 11:36:33.0206|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:36:33 AM
+2021-09-11 11:36:33.0805|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:33 AM
+2021-09-11 11:36:33.1969|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:36:33 AM
+2021-09-11 11:36:38.2177|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:36:38 AM
+2021-09-11 11:36:48.6702|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:36:48 AM
+2021-09-11 11:40:20.5107|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:40:20.5168|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:40:20.5168|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:40:20.5419|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:20 AM
+2021-09-11 11:40:21.2300|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:40:21 AM
+2021-09-11 11:40:21.2781|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:21 AM
+2021-09-11 11:40:21.2781|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:40:21 AM
+2021-09-11 11:40:26.9880|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:26 AM
+2021-09-11 11:40:26.9880|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:40:26 AM
+2021-09-11 11:40:27.0008|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0473|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0473|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0473|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0888|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0888|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.0888|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.2320|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.2320|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.3432|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.3432|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.4055|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:27 AM
+2021-09-11 11:40:27.5178|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:40:27 AM
+2021-09-11 11:40:34.0745|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:40:34 AM
+2021-09-11 11:40:34.7507|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:40:34 AM
+2021-09-11 11:40:58.1364|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 11:40:58 AM
+2021-09-11 11:40:58.2088|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 11:40:58 AM
+2021-09-11 11:40:58.4407|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:40:58 AM
+2021-09-11 11:41:13.7632|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:41:13 AM
+2021-09-11 11:41:20.7160|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:41:20 AM
+2021-09-11 11:41:53.1797|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: PUT, Time:9/11/2021 11:41:53 AM
+2021-09-11 11:42:09.0751|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:42:09 AM
+2021-09-11 11:43:08.8225|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: DELETE, Time:9/11/2021 11:43:08 AM
+2021-09-11 11:43:13.8117|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:43:13 AM
+2021-09-11 11:44:44.9521|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:44:44.9521|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:44:44.9521|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:44:44.9749|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:44 AM
+2021-09-11 11:44:45.6299|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:44:45 AM
+2021-09-11 11:44:45.7093|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:45 AM
+2021-09-11 11:44:45.7093|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:44:45 AM
+2021-09-11 11:44:49.3829|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.3874|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.3874|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4192|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4373|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4373|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4373|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4781|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4781|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.4781|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.6276|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.6276|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.7378|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.7378|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.8027|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:44:49 AM
+2021-09-11 11:44:49.9149|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:44:49 AM
+2021-09-11 11:44:56.2149|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: DELETE, Time:9/11/2021 11:44:56 AM
+2021-09-11 11:45:09.8308|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:45:09 AM
+2021-09-11 11:45:09.8414|ERROR|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'EmployeeManagment' on server '(localdb)\MSSQLLocalDB'.
+2021-09-11 11:45:09.9024|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-09-11 11:46:31.7214|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:46:31.7214|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:46:31.7214|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:46:31.7434|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:31 AM
+2021-09-11 11:46:32.3491|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:46:32 AM
+2021-09-11 11:46:32.4067|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:32 AM
+2021-09-11 11:46:32.4067|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:46:32 AM
+2021-09-11 11:46:35.6225|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6225|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6225|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6593|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6800|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6800|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.6800|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.7228|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.7228|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.7228|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.8761|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.8761|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.9949|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:35 AM
+2021-09-11 11:46:35.9949|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:46:35 AM
+2021-09-11 11:46:36.0682|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:36 AM
+2021-09-11 11:46:36.1824|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:46:36 AM
+2021-09-11 11:46:39.5173|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:46:39 AM
+2021-09-11 11:46:42.8862|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:46:42 AM
+2021-09-11 11:47:12.7375|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 11:47:12 AM
+2021-09-11 11:47:12.7956|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 11:47:12 AM
+2021-09-11 11:47:20.1713|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:47:20 AM
+2021-09-11 11:47:49.2450|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:47:49 AM
+2021-09-11 11:48:14.2295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:48:14 AM
+2021-09-11 11:48:45.5523|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: PUT, Time:9/11/2021 11:48:45 AM
+2021-09-11 11:48:56.9475|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:48:56 AM
+2021-09-11 11:49:21.4000|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: DELETE, Time:9/11/2021 11:49:21 AM
+2021-09-11 11:49:49.9783|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:49:49 AM
+2021-09-11 11:52:47.8901|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:52:47.8901|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:52:47.8901|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:52:47.9137|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:47 AM
+2021-09-11 11:52:48.5756|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:52:48 AM
+2021-09-11 11:52:48.6188|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:48 AM
+2021-09-11 11:52:48.6188|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:52:48 AM
+2021-09-11 11:52:51.2182|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2182|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2182|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2544|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2748|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2748|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.2748|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.3239|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.3239|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.3239|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.4956|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.4960|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.6136|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.6136|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.6843|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:52:51 AM
+2021-09-11 11:52:51.7976|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:52:51 AM
+2021-09-11 11:52:56.9735|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: DELETE, Time:9/11/2021 11:52:56 AM
+2021-09-11 11:53:02.4545|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:53:02 AM
+2021-09-11 11:53:02.4545|ERROR|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'EmployeeManagment' on server '(localdb)\MSSQLLocalDB'.
+2021-09-11 11:53:02.5185|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-09-11 11:54:21.1671|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 11:54:21.1757|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 11:54:21.1757|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 11:54:21.1889|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:21 AM
+2021-09-11 11:54:21.8057|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:54:21 AM
+2021-09-11 11:54:21.8489|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:21 AM
+2021-09-11 11:54:21.8489|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:54:21 AM
+2021-09-11 11:54:24.4559|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.4559|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.4653|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.4953|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5168|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5168|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5168|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5649|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5649|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.5649|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.7255|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.7255|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.8356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.8356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 11:54:24 AM
+2021-09-11 11:54:24.9008|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 11:54:24 AM
+2021-09-11 11:54:25.0207|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:54:25 AM
+2021-09-11 11:54:33.4881|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: DELETE, Time:9/11/2021 11:54:33 AM
+2021-09-11 11:54:42.6965|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 11:54:42 AM
+2021-09-11 11:54:42.7069|ERROR|Microsoft.EntityFrameworkCore.Database.Connection|An error occurred using the connection to database 'EmployeeManagment' on server '(localdb)\MSSQLLocalDB'.
+2021-09-11 11:54:42.7700|ERROR|Microsoft.EntityFrameworkCore.Query|An exception occurred while iterating over the results of a query for context type 'Myapp.PersistenceDB.Context.EmployeeManagmentContext'.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+2021-09-11 15:18:33.6093|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 15:18:33.6093|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 15:18:33.6093|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 15:18:33.6374|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:33 PM
+2021-09-11 15:18:34.3220|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 3:18:34 PM
+2021-09-11 15:18:34.3785|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:34 PM
+2021-09-11 15:18:34.3785|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 3:18:34 PM
+2021-09-11 15:18:49.4736|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.4736|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.4852|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5179|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5375|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5375|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5375|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.5759|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.7612|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.8667|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.8667|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.8667|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.8667|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:49.9039|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 3:18:49 PM
+2021-09-11 15:18:58.1601|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:18:58 PM
+2021-09-11 15:18:58.8001|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 3:18:58 PM
+2021-09-11 15:19:18.0055|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 3:19:18 PM
+2021-09-11 15:19:18.1806|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 3:19:18 PM
+2021-09-11 16:55:16.1687|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 16:55:16.1687|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 16:55:16.1687|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 16:55:16.1885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:16 PM
+2021-09-11 16:55:16.8668|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 4:55:16 PM
+2021-09-11 16:55:16.9153|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:16 PM
+2021-09-11 16:55:16.9153|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 4:55:16 PM
+2021-09-11 16:55:22.4104|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4104|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4190|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4489|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4684|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4684|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.4684|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.5103|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.5103|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.5103|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.6981|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.7858|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.7858|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.7858|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.7858|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:22.8289|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 4:55:22 PM
+2021-09-11 16:55:25.6026|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 4:55:25 PM
+2021-09-11 16:55:27.6597|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 4:55:27 PM
+2021-09-11 17:55:45.4479|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 17:55:45.4542|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 17:55:45.4542|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 17:55:45.4732|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:45 PM
+2021-09-11 17:55:46.2847|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 5:55:46 PM
+2021-09-11 17:55:46.3295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:46 PM
+2021-09-11 17:55:46.3295|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 5:55:46 PM
+2021-09-11 17:55:49.5014|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5014|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5110|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5424|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5625|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5625|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.5625|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.6102|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.6102|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.6102|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.7962|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.8799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.8799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.8799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.8799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:49.9342|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 5:55:49 PM
+2021-09-11 17:55:53.0586|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:55:53 PM
+2021-09-11 17:55:54.1359|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000036-0005-ff00-b63f-84710c7967bb, 80000036-0005-ff00-b63f-84710c7967bb, UnhandledError, (null)
+2021-09-11 17:56:13.5749|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 5:56:13 PM
+2021-09-11 17:56:13.7466|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 204, Date: 9/11/2021 5:56:13 PM
+2021-09-11 18:00:50.6421|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 18:00:50.6421|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 18:00:50.6421|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 18:00:50.6667|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:50 PM
+2021-09-11 18:00:51.4916|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:00:51 PM
+2021-09-11 18:00:51.5368|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:51 PM
+2021-09-11 18:00:51.5368|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:00:51 PM
+2021-09-11 18:00:55.8835|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.8884|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.8884|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9271|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9461|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9461|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9461|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9947|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9947|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:00:55 PM
+2021-09-11 18:00:55.9947|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:00:55 PM
+2021-09-11 18:00:56.1861|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:56 PM
+2021-09-11 18:00:56.2980|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:56 PM
+2021-09-11 18:00:56.2980|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:00:56 PM
+2021-09-11 18:00:56.2980|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:00:56 PM
+2021-09-11 18:00:56.2980|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:00:56 PM
+2021-09-11 18:00:56.3438|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:00:56 PM
+2021-09-11 18:01:00.2606|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:01:00 PM
+2021-09-11 18:01:01.1928|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:01:01 PM
+2021-09-11 18:01:14.1893|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:01:14 PM
+2021-09-11 18:01:14.3124|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:01:14 PM
+2021-09-11 18:12:57.9232|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 18:12:57.9232|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 18:12:57.9232|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 18:12:57.9496|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:12:57 PM
+2021-09-11 18:12:58.7994|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:12:58 PM
+2021-09-11 18:12:58.8504|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:12:58 PM
+2021-09-11 18:12:58.8504|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:12:58 PM
+2021-09-11 18:13:02.1413|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.1413|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.1535|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.1866|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2620|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2620|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.2620|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.4577|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.5509|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.5509|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.5509|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.5509|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:02.6087|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:13:02 PM
+2021-09-11 18:13:10.5412|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:13:10 PM
+2021-09-11 18:13:11.4620|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:13:11 PM
+2021-09-11 18:15:53.5075|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 18:15:53.5146|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 18:15:53.5146|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 18:15:53.5329|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:53 PM
+2021-09-11 18:15:54.4064|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:15:54 PM
+2021-09-11 18:15:54.4477|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:54 PM
+2021-09-11 18:15:54.4477|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:15:54 PM
+2021-09-11 18:15:57.6185|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6222|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6222|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6589|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6775|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6870|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.6870|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.7237|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.7237|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.7237|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.9024|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.9902|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.9902|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.9902|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 6:15:57 PM
+2021-09-11 18:15:57.9902|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 6:15:57 PM
+2021-09-11 18:15:58.0498|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:15:58 PM
+2021-09-11 18:16:45.9565|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 6:16:45 PM
+2021-09-11 18:16:53.7354|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|8000003d-0005-ff00-b63f-84710c7967bb, 8000003d-0005-ff00-b63f-84710c7967bb, LengthrangeError, (null)
+2021-09-11 18:17:02.5550|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 6:17:02 PM
+2021-09-11 18:17:19.6991|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000040-0001-ff00-b63f-84710c7967bb, 80000040-0001-ff00-b63f-84710c7967bb, LengthrangeError, (null)
+2021-09-11 18:18:52.0639|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 6:18:52 PM
+2021-09-11 18:19:10.8051|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000042-0001-ff00-b63f-84710c7967bb, 80000042-0001-ff00-b63f-84710c7967bb, LengthrangeError, (null)
+2021-09-11 18:19:35.8876|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 6:19:35 PM
+2021-09-11 18:19:35.8876|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 6:19:35 PM
+2021-09-11 18:19:36.8686|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 6:19:36 PM
+2021-09-11 19:20:16.2061|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 19:20:16.2061|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 19:20:16.2061|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 19:20:16.2316|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:16 PM
+2021-09-11 19:20:17.0952|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:20:17 PM
+2021-09-11 19:20:17.1430|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:17 PM
+2021-09-11 19:20:17.1430|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:20:17 PM
+2021-09-11 19:20:20.0610|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.0610|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.0610|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.0989|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1176|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1176|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1176|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1607|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1607|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.1607|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.3422|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.4356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.4356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.4356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.4356|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:20:20.4987|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:20:20 PM
+2021-09-11 19:21:46.9460|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:21:46 PM
+2021-09-11 19:21:47.8609|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:21:47 PM
+2021-09-11 19:33:17.9871|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 19:33:17.9871|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 19:33:17.9871|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 19:33:18.0128|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:18 PM
+2021-09-11 19:33:18.8999|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:33:18 PM
+2021-09-11 19:33:18.9675|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:18 PM
+2021-09-11 19:33:18.9675|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:33:18 PM
+2021-09-11 19:33:24.0332|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.0332|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.0442|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.0834|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1582|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1582|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.1582|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.3541|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.4478|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.4478|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.4494|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.4494|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:33:24.5218|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:33:24 PM
+2021-09-11 19:34:13.7015|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 7:34:13 PM
+2021-09-11 19:34:13.8346|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 7:34:13 PM
+2021-09-11 19:34:14.6071|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:34:14 PM
+2021-09-11 19:34:32.9107|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:34:32 PM
+2021-09-11 19:34:33.2654|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:34:33 PM
+2021-09-11 19:34:46.8724|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:34:46 PM
+2021-09-11 19:34:46.9238|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:34:46 PM
+2021-09-11 19:38:48.0396|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 19:38:48.0463|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 19:38:48.0463|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 19:38:48.0616|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:48 PM
+2021-09-11 19:38:48.9401|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:38:48 PM
+2021-09-11 19:38:48.9885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:48 PM
+2021-09-11 19:38:48.9885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:38:48 PM
+2021-09-11 19:38:57.9953|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:57 PM
+2021-09-11 19:38:57.9953|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 7:38:57 PM
+2021-09-11 19:38:57.9953|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0321|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0508|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0508|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0508|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0961|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0961|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.0961|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.2656|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.3669|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.3669|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.3669|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.3669|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 7:38:58 PM
+2021-09-11 19:38:58.4289|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 7:38:58 PM
+2021-09-11 20:07:02.7238|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 20:07:02.7306|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 20:07:02.7306|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 20:07:02.7545|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:02 PM
+2021-09-11 20:07:03.5841|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:07:03 PM
+2021-09-11 20:07:03.6279|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:03 PM
+2021-09-11 20:07:03.6279|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:07:03 PM
+2021-09-11 20:07:06.8260|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8260|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8260|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8636|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8846|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8846|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.8846|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.9268|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.9268|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:07:06 PM
+2021-09-11 20:07:06.9268|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 8:07:06 PM
+2021-09-11 20:07:07.1041|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:07 PM
+2021-09-11 20:07:07.2028|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:07 PM
+2021-09-11 20:07:07.2028|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:07:07 PM
+2021-09-11 20:07:07.2028|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:07 PM
+2021-09-11 20:07:07.2028|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:07:07 PM
+2021-09-11 20:07:07.2348|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:07:07 PM
+2021-09-11 20:07:19.0406|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:19 PM
+2021-09-11 20:07:19.9492|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:07:19 PM
+2021-09-11 20:07:31.1733|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:07:31 PM
+2021-09-11 20:07:31.2871|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:07:31 PM
+2021-09-11 20:08:26.5085|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 8:08:26 PM
+2021-09-11 20:08:26.5605|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 8:08:26 PM
+2021-09-11 20:08:26.7929|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:08:26 PM
+2021-09-11 20:11:29.2873|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 20:11:29.2945|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 20:11:29.2945|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 20:11:29.3122|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:29 PM
+2021-09-11 20:11:30.1364|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:11:30 PM
+2021-09-11 20:11:30.1834|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:30 PM
+2021-09-11 20:11:30.1834|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:11:30 PM
+2021-09-11 20:11:33.1234|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1234|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1234|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1609|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.1799|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.2578|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.2578|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.2578|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.4248|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.5062|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.5062|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.5062|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.5062|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:33.5540|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:11:33 PM
+2021-09-11 20:11:36.7763|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:36 PM
+2021-09-11 20:11:37.6731|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:11:37 PM
+2021-09-11 20:11:52.8058|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:11:52 PM
+2021-09-11 20:11:52.9157|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:11:52 PM
+2021-09-11 20:18:27.0315|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 20:18:27.0315|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 20:18:27.0315|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 20:18:27.0537|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:27 PM
+2021-09-11 20:18:27.8653|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:18:27 PM
+2021-09-11 20:18:27.9090|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:27 PM
+2021-09-11 20:18:27.9090|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:18:27 PM
+2021-09-11 20:18:31.1261|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1261|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1261|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1629|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1824|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1849|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.1849|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.2245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.2245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.2245|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.3951|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.4745|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.4745|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.4745|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.4745|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:18:31.5282|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:18:31 PM
+2021-09-11 20:19:02.0156|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 8:19:02 PM
+2021-09-11 20:19:02.1129|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 8:19:02 PM
+2021-09-11 20:19:02.8993|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:19:02 PM
+2021-09-11 20:19:21.3282|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 8:19:21 PM
+2021-09-11 20:19:34.7832|ERROR|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|80000033-0000-fb00-b63f-84710c7967bb, 80000033-0000-fb00-b63f-84710c7967bb, LengthrangeError, (null)
+2021-09-11 20:19:41.2734|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 8:19:41 PM
+2021-09-11 20:19:41.2850|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 8:19:41 PM
+2021-09-11 20:19:41.2982|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:19:41 PM
+2021-09-11 20:19:43.6694|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:9/11/2021 8:19:43 PM
+2021-09-11 20:19:43.6694|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 9/11/2021 8:19:43 PM
+2021-09-11 20:19:43.6970|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:19:43 PM
+2021-09-11 20:23:18.7610|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-09-11 20:23:18.7610|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-09-11 20:23:18.7610|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-09-11 20:23:18.7805|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:18 PM
+2021-09-11 20:23:19.6371|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:23:19 PM
+2021-09-11 20:23:19.6780|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:19 PM
+2021-09-11 20:23:19.6780|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:23:19 PM
+2021-09-11 20:23:22.8885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.8885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 301, Date: 9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.8885|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9258|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/html;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9457|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9457|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9457|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9911|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9911|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/css, StatusCode: 200, Date: 9/11/2021 8:23:22 PM
+2021-09-11 20:23:22.9911|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/javascript, StatusCode: 200, Date: 9/11/2021 8:23:22 PM
+2021-09-11 20:23:23.1698|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:23 PM
+2021-09-11 20:23:23.2534|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:23 PM
+2021-09-11 20:23:23.2534|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:9/11/2021 8:23:23 PM
+2021-09-11 20:23:23.2534|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:23:23 PM
+2021-09-11 20:23:23.2534|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 9/11/2021 8:23:23 PM
+2021-09-11 20:23:23.3002|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json;charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:23:23 PM
+2021-09-11 20:24:45.3913|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: PUT, Time:9/11/2021 8:24:45 PM
+2021-09-11 20:24:46.4650|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:24:46 PM
+2021-09-11 20:28:27.3464|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: PUT, Time:9/11/2021 8:28:27 PM
+2021-09-11 20:28:27.4494|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:28:27 PM
+2021-09-11 20:28:31.8133|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: PUT, Time:9/11/2021 8:28:31 PM
+2021-09-11 20:28:31.8351|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: text/plain; charset=utf-8, StatusCode: 200, Date: 9/11/2021 8:28:31 PM

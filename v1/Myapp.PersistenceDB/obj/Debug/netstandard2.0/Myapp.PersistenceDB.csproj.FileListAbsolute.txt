@@ -1,0 +1,11 @@
+C:\Users\99555\source\repos\Myapp.PersistenceDB\bin\Debug\netstandard2.0\Myapp.PersistenceDB.deps.json
+C:\Users\99555\source\repos\Myapp.PersistenceDB\bin\Debug\netstandard2.0\Myapp.PersistenceDB.dll
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.AssemblyInfoInputs.cache
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.AssemblyInfo.cs
+C:\Users\99555\source\repos\Myapp.PersistenceDB\bin\Debug\netstandard2.0\Myapp.PersistenceDB.pdb
+C:\Users\99555\source\repos\Myapp.PersistenceDB\bin\Debug\netstandard2.0\Myapp.Domain.dll
+C:\Users\99555\source\repos\Myapp.PersistenceDB\bin\Debug\netstandard2.0\Myapp.Domain.pdb
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.csprojAssemblyReference.cache
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.csproj.CopyComplete
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.dll
+C:\Users\99555\source\repos\Myapp.PersistenceDB\obj\Debug\netstandard2.0\Myapp.PersistenceDB.pdb

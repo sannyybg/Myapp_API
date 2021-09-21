@@ -1,0 +1,13 @@
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.Data.dll
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.csprojAssemblyReference.cache
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.AssemblyInfoInputs.cache
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.AssemblyInfo.cs
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.DataADO.deps.json
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.DataADO.dll
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.DataADO.pdb
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.Data.pdb
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.csproj.CopyComplete
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.dll
+C:\Users\99555\source\repos\Myapp.DataADO\obj\Debug\netstandard2.0\Myapp.DataADO.pdb
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.Domain.dll
+C:\Users\99555\source\repos\Myapp.DataADO\bin\Debug\netstandard2.0\Myapp.Domain.pdb

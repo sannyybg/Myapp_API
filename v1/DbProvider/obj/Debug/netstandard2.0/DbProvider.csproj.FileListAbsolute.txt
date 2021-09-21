@@ -1,0 +1,17 @@
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\DbProvider.deps.json
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\DbProvider.dll
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\DbProvider.pdb
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.csprojAssemblyReference.cache
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.AssemblyInfoInputs.cache
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.AssemblyInfo.cs
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.dll
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.pdb
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.Data.dll
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.DataADO.dll
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.DataADO.pdb
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.Data.pdb
+C:\Users\99555\source\repos\DbProvider\obj\Debug\netstandard2.0\DbProvider.csproj.CopyComplete
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.Domain.dll
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.Domain.pdb
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.DataEF.dll
+C:\Users\99555\source\repos\DbProvider\bin\Debug\netstandard2.0\Myapp.DataEF.pdb

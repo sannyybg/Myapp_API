@@ -1,0 +1,27 @@
+2021-08-01 14:58:28.3329|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-01 14:58:28.3457|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-01 14:58:28.3457|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-08-01 14:58:28.3599|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 2:58:28 PM
+2021-08-01 14:58:28.4527|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/1/2021 2:58:28 PM
+2021-08-01 14:58:28.4835|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 2:58:28 PM
+2021-08-01 14:58:28.4835|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/1/2021 2:58:28 PM
+2021-08-01 14:58:38.2108|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:8/1/2021 2:58:38 PM
+2021-08-01 14:58:40.1068|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 8/1/2021 2:58:40 PM
+2021-08-01 14:58:41.7465|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 200, Date: 8/1/2021 2:58:41 PM
+2021-08-01 14:58:44.7981|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:8/1/2021 2:58:44 PM
+2021-08-01 14:58:48.1940|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 8/1/2021 2:58:48 PM
+2021-08-01 14:58:49.2557|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 200, Date: 8/1/2021 2:58:49 PM
+2021-08-01 14:58:52.9033|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 2:58:52 PM
+2021-08-01 14:58:52.9094|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/1/2021 2:58:52 PM
+2021-08-01 15:03:57.7306|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-08-01 15:03:57.7432|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-08-01 15:03:57.7432|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\99555\source\repos\tt1ap
+2021-08-01 15:03:57.7582|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 3:03:57 PM
+2021-08-01 15:03:57.8372|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/1/2021 3:03:57 PM
+2021-08-01 15:03:57.8764|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 3:03:57 PM
+2021-08-01 15:03:57.8764|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 404, Date: 8/1/2021 3:03:57 PM
+2021-08-01 15:04:09.6747|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: POST, Time:8/1/2021 3:04:09 PM
+2021-08-01 15:04:11.3734|INFO|WebApplication1.Controllers.CompanyController|Log with Nlog, for Add Method, Time: 8/1/2021 3:04:11 PM
+2021-08-01 15:04:12.9075|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: , StatusCode: 200, Date: 8/1/2021 3:04:12 PM
+2021-08-01 15:04:25.1648|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Request Method Type: GET, Time:8/1/2021 3:04:25 PM
+2021-08-01 15:04:25.1709|INFO|tt1ap.CustomMiddleware.RequestResponseLoggerMiddleware|Type: application/json; charset=utf-8, StatusCode: 200, Date: 8/1/2021 3:04:25 PM
